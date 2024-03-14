@@ -2,7 +2,7 @@ FROM node:16-alpine
 
 WORKDIR /portfolio
 
-COPY . .
+COPY /build .
 
 RUN apk update && apk upgrade &&\
     apk add xsel --no-cache && apk add yarn --no-cache &&\
