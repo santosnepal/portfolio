@@ -19,7 +19,8 @@ jobs:
       - name: Save Docker image as tar
         run: |
           docker save -o portfolio.tar portfolio
-          
+          ls -la
+          chmod +rwx
 
       - name: Transfer Docker image to EC2
         uses: appleboy/scp-action@master
@@ -27,7 +28,7 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
-          source: 'portfolio.tar'
+          source: portfolio.tar
           target: /home/ubuntu/portfolio
 
       - name: SSH into EC2 and deploy
@@ -37,5 +38,5 @@ jobs:
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
           script: |
-            docker load -i /home/ubuntu/server/danys_image.tar
-            docker-compose -f danys_image/docker-compose.yml up -d
+            docker load -i /home/ubuntu/portfolio/portfolio.tar
+            docker-compose -f portfolio/docker-compose.yml up -d
