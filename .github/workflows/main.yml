@@ -20,7 +20,7 @@ jobs:
         run: |
           docker save -o portfolio.tar portfolio
           ls -la
-          chmod +rwx
+          chmod +rwx portfolio.tar
 
       - name: Transfer Docker image to EC2
         uses: appleboy/scp-action@master
