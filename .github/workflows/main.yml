@@ -27,8 +27,8 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
-          source: 'danys_image.tar'
-          target: /home/ubuntu/server/
+          source: 'portfolio.tar'
+          target: /home/ubuntu/portfolio
 
       - name: SSH into EC2 and deploy
         uses: appleboy/ssh-action@master
