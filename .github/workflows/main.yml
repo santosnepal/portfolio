@@ -19,7 +19,6 @@ jobs:
       - name: Save Docker image as tar
         run: |
           docker save -o portfolio.tar portfolio
-          ls -la
           chmod +rwx portfolio.tar
 
       - name: Transfer Docker image to EC2
