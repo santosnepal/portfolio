@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 
 function Data() {
@@ -61,12 +61,12 @@ function Data() {
       {/* <h3 className="home__subtitle">{type[0].slice(0, subIdx)}</h3> */}
       <TypeAnimation
         sequence={[
-          'Backend Developer',
-          1000,
-          'Frontend Developer',
-          1000,
-          'FullStack Developer',
-          1000
+          'Full Stack Developer',
+          2000,
+          'Data Engineer',
+          2000,
+          'Software Engineer',
+          2000,
         ]}
         wrapper="h3"
         cursor={true}
@@ -74,7 +74,9 @@ function Data() {
         className="home__subtitle"
       />
       <p className="home__description">
-        software engineer with a specialization in Node.js and React
+        Software engineer with 5+ years of experience building full stack
+        applications with NestJS, Node.js, React, and PostgreSQL, plus data
+        pipelines with Python, Airflow, and PySpark.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

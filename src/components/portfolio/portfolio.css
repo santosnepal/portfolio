@@ -4,10 +4,17 @@
 
 .portfolio__card {
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
     padding: 1.5rem 2rem;
     border-radius: 1.5rem;
     margin-bottom: var(--mb-3);
+    transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.portfolio__card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent-color);
+    box-shadow: 0 12px 32px var(--accent-glow);
 }
 
 .portfolio__img {
@@ -15,12 +22,37 @@
     height: 60px;
     border-radius: 50%;
     margin-bottom: var(--mb-1);
+    object-fit: cover;
 }
 
 .portfolio__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-25);
+}
+
+.portfolio__tagline {
+    color: var(--accent-color-light);
+    font-size: var(--smaller-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-5);
+}
+
+.portfolio__stack {
+    color: var(--text-color);
+    font-size: var(--smaller-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.portfolio__summary {
+    color: var(--text-color);
+    font-size: var(--smaller-font-size);
+    line-height: 1.5;
+    margin-bottom: var(--mb-1);
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .portfolio__description {
@@ -30,19 +62,26 @@
     align-items: center;
     column-gap: 0.25rem;
     cursor: pointer;
+    transition: color 0.3s;
 }
 
-/* Swiper Class */
+.portfolio__description:hover {
+    color: var(--accent-color-light);
+}
+
+.portfolio__description--static {
+    cursor: default;
+    opacity: 0.85;
+}
+
 .swiper-pagination-bullet {
     background-color: var(--text-color) !important;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: var(--title-color) !important;
+    background-color: var(--accent-color) !important;
 }
 
-/* BREAKPOINTS */
-/* FOR LARGE DEVICES */
 @media screen and (max-width: 992px) {
     .portfolio__container {
         width: initial;
@@ -58,7 +97,6 @@
     transition: 0.3s;
 }
 
-.portfolio__description:hover .portfoliot__button-icon {
-    transform: translateX(00.25rem);
-    background-color: aqua;
+.portfolio__description:hover .portfolio__button-icon {
+    transform: translateX(0.25rem);
 }

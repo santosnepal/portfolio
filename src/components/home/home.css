@@ -21,7 +21,7 @@
 }
 
 .home__social-icon:hover {
-  color: var(--title-color-dark);
+  color: var(--accent-color-light);
 }
 
 .home__title {
@@ -84,8 +84,8 @@
   content: '';
   position: absolute;
   width: 70px;
-  height: 1px;
-  background-color: var(--text-color);
+  height: 2px;
+  background-color: var(--accent-color);
   left: 0;
   top: 1rem;
 }
@@ -97,11 +97,10 @@
 
 .home__img {
   background: url(../../assets/profile-photo.jpg);
-  background-color: aqua;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: inset 0 0 0 9px rgb(255 255 255/30%);
+  box-shadow: inset 0 0 0 9px var(--accent-glow);
   order: 1;
   justify-self: center;
   width: 300px;
@@ -194,7 +193,7 @@
   .home__img {
     width: 250px;
     height: 250px;
-    box-shadow: inset 0 0 0 8px rgb(255 255 255/30%);
+    box-shadow: inset 0 0 0 8px var(--accent-glow);
   }
 
   .home__scroll {
@@ -219,7 +218,7 @@
   }
 
   .home__img {
-    box-shadow: inset 0 0 0 6px rgb(255 255 255/30%);
+    box-shadow: inset 0 0 0 6px var(--accent-glow);
     width: 200px;
     height: 200px;
   }

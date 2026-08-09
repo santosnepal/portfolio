@@ -17,11 +17,11 @@
 }
 
 .qualification__button-active {
-    border-bottom: 2px solid var(--title-color);
+    border-bottom: 2px solid var(--accent-color);
 }
 
 .qualification__button:hover {
-    color: var(--title-color-dark);
+    color: var(--accent-color-light);
 }
 
 .qualification__icon {
@@ -30,7 +30,7 @@
 }
 
 .qualification__active {
-    color: var(--title-color-dark);
+    color: var(--accent-color-light);
 }
 
 .qualification__sections {
@@ -72,7 +72,7 @@
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: var(--text-color);
+    background-color: var(--accent-color);
     border-radius: 50%;
 }
 
@@ -80,7 +80,7 @@
     display: block;
     width: 1px;
     height: 100%;
-    background-color: var(--text-color);
+    background-color: var(--accent-color);
     margin-left: 6px;
     margin-top: -8px;
     transform: translate(6px -7px);

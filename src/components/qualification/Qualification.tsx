@@ -51,14 +51,14 @@ function Qualification() {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Bachelor In Information Technology
+                  Master of Computer Science
                 </h3>
                 <span className="qualification__subtitle">
-                  Kantipur City College - Kathmandu
+                  Texas College of Management and IT
                 </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2016 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2026 - Ongoing
                 </div>
               </div>
 
@@ -75,6 +75,21 @@ function Qualification() {
                 <span className="qualification__line"></span>
               </div>
               <div>
+                <h3 className="qualification__title">
+                  Bachelor In Information Technology
+                </h3>
+                <span className="qualification__subtitle">
+                  Kantipur City College - Kathmandu
+                </span>
+
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2016 - 2020
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
                 <h3 className="qualification__title">+2 Computer Science</h3>
                 <span className="qualification__subtitle">
                   Sukuna Multiple Campus - Morang
@@ -84,9 +99,19 @@ function Qualification() {
                   <i className="uil uil-calendar-alt"></i> 2014 - 2016
                 </div>
               </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
             </div>
 
             <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
               <div>
                 <h3 className="qualification__title">SLC</h3>
                 <span className="qualification__subtitle">
@@ -96,11 +121,6 @@ function Qualification() {
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2014
                 </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
@@ -120,7 +140,7 @@ function Qualification() {
                 </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023
+                  <i className="uil uil-calendar-alt"></i> 2023 - 2026
                 </div>
               </div>
 

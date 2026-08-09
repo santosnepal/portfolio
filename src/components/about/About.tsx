@@ -15,9 +15,10 @@ function About() {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            An independent, focused quick learner and self-motivated graduate
-            passionate to build innovative products and solving problems.
-            Hands-on experience building Full stack applications.
+            Software engineer with 5+ years of experience building scalable
+            full stack products and data pipelines. Currently pursuing a Master
+            of Computer Science while working with NestJS, Node.js, React,
+            PostgreSQL, Python, Airflow, and PySpark.
           </p>
           <a
             target="_blank"

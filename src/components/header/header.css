@@ -46,7 +46,7 @@
 /* Active Link */
 .active-link,
 .nav__link:hover {
-    color: var(--title-color-dark);
+    color: var(--accent-color-light);
 }
 
 .scroll-header {

@@ -6,7 +6,7 @@
 
 .project__content {
     position: relative;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
     background-color: var(--container-color);
     padding: 6rem 0 2rem 2.5rem;
 }
@@ -14,7 +14,7 @@
 .project__icon {
     display: block;
     font-size: 2rem;
-    color: var(--title-color);
+    color: var(--accent-color-light);
     margin-bottom: var(--mb-1);
 }
 
@@ -31,6 +31,11 @@
     align-items: center;
     column-gap: 0.25rem;
     cursor: pointer;
+    transition: color 0.3s;
+}
+
+.project__button:hover {
+    color: var(--accent-color-light);
 }
 
 .project__button-icon {

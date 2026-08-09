@@ -1,6 +1,7 @@
 import React from "react";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
+import DataEngineering from "./DataEngineering";
 import "./skills.css";
 
 const Skills = () => {
@@ -12,6 +13,7 @@ const Skills = () => {
       <div className="skills__container container grid">
         <Frontend />
         <Backend />
+        <DataEngineering />
       </div>
     </section>
   );

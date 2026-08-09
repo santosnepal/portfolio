@@ -6,7 +6,7 @@ function Info() {
       <div className="about__box">
         <i className="bx bx-award about__icon"></i>
         <h3 className="about__title">Experience</h3>
-        <span className="about__subtitle">2 years Working</span>
+        <span className="about__subtitle">5 years Working</span>
       </div>
 
       <div className="about__box">
@@ -16,9 +16,9 @@ function Info() {
       </div>
 
       <div className="about__box">
-        <i className="bx bx-support about__icon"></i>
-        <h3 className="about__title">Support</h3>
-        <span className="about__subtitle">Online 24/7</span>
+        <i className="bx bx-book-open about__icon"></i>
+        <h3 className="about__title">Education</h3>
+        <span className="about__subtitle">MCS · Ongoing</span>
       </div>
     </div>
   );

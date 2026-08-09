@@ -104,7 +104,7 @@ function Project() {
               ></i>
               <h3 className="project__modal-title">Frontend Developement</h3>
               <p className="project__modal-description">
-                Service with more than 1 years of experience. Providing quality
+                Service with more than 5 years of experience. Providing quality
                 work to clients and companies.
               </p>
 
@@ -143,7 +143,7 @@ function Project() {
               ></i>
               <h3 className="project__modal-title">Backend Developement</h3>
               <p className="project__modal-description">
-                Service with more than 2 years of experience. Providing quality
+                Service with more than 5 years of experience. Providing quality
                 work to clients and companies
               </p>
 

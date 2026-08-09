@@ -2,6 +2,7 @@
   "name": "fe-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://santosnepal.github.io/portfolio",
   "main": "app.jsx",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -22,8 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "GENERATE_SOURCEMAP=false && react-scripts start",
-    "build": "react-scripts build",
+    "start": "GENERATE_SOURCEMAP=false react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build && node scripts/inline-to-single-html.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
