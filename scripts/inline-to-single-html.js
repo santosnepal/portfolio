@@ -356,6 +356,14 @@ async function inlineBuildAssets() {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   fs.writeFileSync(OUTPUT_FILE, html);
   fs.writeFileSync(path.join(OUTPUT_DIR, ".nojekyll"), "");
+
+  const cnameFile = path.join(__dirname, "..", "CNAME");
+  if (fs.existsSync(cnameFile)) {
+    const domain = fs.readFileSync(cnameFile, "utf8").trim();
+    if (domain) {
+      fs.writeFileSync(path.join(OUTPUT_DIR, "CNAME"), `${domain}\n`);
+    }
+  }
 }
 
 inlineBuildAssets()
