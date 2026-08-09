@@ -9,7 +9,7 @@ function Contact() {
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    return true
+
     emailjs
       .sendForm(
         'service_vlnniyu',
@@ -68,7 +68,12 @@ function Contact() {
               <i className="bx bxl-messenger contact__card-icon"></i>
               <h3 className="contact__card-title">Messenger</h3>
               <span className="contact__card-data">Santosh Nepal</span>
-              <a href="#" className="contact__button">
+              <a
+                href="https://www.linkedin.com/in/santosh-nepal-3ab7b3156/"
+                target="_blank"
+                rel="noreferrer"
+                className="contact__button"
+              >
                 Write me{' '}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>{' '}
               </a>
