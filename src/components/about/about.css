@@ -2,6 +2,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 4rem;
+    justify-items: center;
 }
 
 .about__img {
@@ -10,10 +11,17 @@
     justify-self: center;
 }
 
+.about__data {
+    text-align: center;
+    width: 100%;
+    max-width: 520px;
+}
+
 .about__info {
     grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
+    justify-content: center;
 }
 
 .about__box {
@@ -40,8 +48,13 @@
 }
 
 .about__description {
-    padding: 0 4rem 0 0;
-    margin-bottom: var(--mb-2-5);
+    padding: 0;
+    margin: 0 auto var(--mb-2-5);
+    max-width: 520px;
+}
+
+.about__data .button--flex {
+    margin: 0 auto;
 }
 
 /* BREAKPOINTS */
@@ -62,6 +75,7 @@
 
     .about__data {
         text-align: center;
+        max-width: 100%;
     }
 
     .about__info {
@@ -69,7 +83,7 @@
     }
 
     .about__description {
-        padding: 0 5rem;
+        padding: 0;
         margin-bottom: 2rem;
     }
 }
