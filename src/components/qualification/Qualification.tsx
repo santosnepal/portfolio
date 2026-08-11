@@ -11,7 +11,7 @@ function Qualification() {
   return (
     <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My personel journey</span>
+      <span className="section__subtitle">My personal journey</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -134,13 +134,15 @@ function Qualification() {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Software Engineer</h3>
+                <h3 className="qualification__title">
+                  Senior Software Engineer
+                </h3>
                 <span className="qualification__subtitle">
-                  Novelty Technology - New Baneshwor Kathmandu
+                  Novelty Technology - Kathmandu
                 </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - 2026
+                  <i className="uil uil-calendar-alt"></i> Aug 2024 - Present
                 </div>
               </div>
 
@@ -159,26 +161,24 @@ function Qualification() {
               <div>
                 <h3 className="qualification__title">Software Engineer</h3>
                 <span className="qualification__subtitle">
-                  InfoDeveloper - Lalitpur
+                  Novelty Technology - Kathmandu
                 </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
+                  <i className="uil uil-calendar-alt"></i> Aug 2023 - Aug 2024
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">
-                  Software Engineer Trainee
-                </h3>
+                <h3 className="qualification__title">Back End Developer</h3>
                 <span className="qualification__subtitle">
-                  InfoDeveloper - Lalitpur
+                  InfoDevelopers Pvt. Ltd. - Kathmandu
                 </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - 2022
+                  <i className="uil uil-calendar-alt"></i> Aug 2021 - Aug 2023
                 </div>
               </div>
 
@@ -195,15 +195,13 @@ function Qualification() {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">
-                  Software Engineer, Intern
-                </h3>
+                <h3 className="qualification__title">Back End Developer</h3>
                 <span className="qualification__subtitle">
-                  InfoDeveloper - Lalitpur
+                  Hobes Tech - Remote · Part-time
                 </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> Mar 2021 - Present
                 </div>
               </div>
             </div>
